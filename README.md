@@ -38,7 +38,7 @@ Your directory structure should look like this.
 ```
 Each banner should go inside a folder named with it's RedTrax name. For example `banner_300x250` will get renamed with your RedTrax banner name. Add as many banner folders as you need. Everything inside `banners` will get processed in the task.
 
-Anything you wish to have packaged in the `_source.zip` should be placed inside the `/global`
+Anything you wish to have packaged in the `_source.zip` (such as Animate templates, fonts, ect) should be placed inside the `/global`
 
 ## Tasks
 
