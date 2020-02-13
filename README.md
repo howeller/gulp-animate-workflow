@@ -10,6 +10,24 @@ Packaging HTML banner files built in Animate CC for RedTrax CMS.
 
 4) Place each banner in a folder named with it's Redtrax name inside the `src/banners` directory. The zips & a copy of each HTML file will be created inside the `dist` directory. This task will create the `_final.zip` and `_source.zip` and a copy of the HTML file inside `dist`. Everything you need for direct upload to RedTrax.
 
+Your directory structure should look like this. `banner_300x250` will get renamed with your RedTrax banner name.
+
+```bash
+├── gulpfile.js
+├── package.json
+├── dist
+├── lib
+│   └── fsUtils.js
+└── src
+    ├── banners
+    │   └── banner_300x250
+    │       ├── banner_300x250.fla
+    │       ├── banner_300x250.html
+    │       └── images
+    └── global
+        └── Animate_Template.html
+```
+
 ## Tasks
 
 **`zip`** (default)\
