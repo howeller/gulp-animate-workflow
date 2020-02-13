@@ -19,8 +19,7 @@ fsUtils.js
 
 4) Place each banner in a folder named with it's Redtrax name inside the `src/banners` directory. The zips & a copy of each HTML file will be created inside the `dist` directory. This task will create the `_final.zip` and `_source.zip` and a copy of the HTML file inside `dist`. Everything you need for direct upload to RedTrax.
 
-Your directory structure should look like this. `banner_300x250` will get renamed with your RedTrax banner name.
-Anything you wish to have packaged in the `_source.zip` should be placed inside the `/global`
+Your directory structure should look like this.
 
 ```bash
 ├── gulpfile.js
@@ -37,6 +36,9 @@ Anything you wish to have packaged in the `_source.zip` should be placed inside 
     └── global
         └── Animate_Template.html
 ```
+Each banner should go inside a folder named with it's RedTrax name. For example `banner_300x250` will get renamed with your RedTrax banner name. Add as many banner folders as you need. Everything inside `banners` will get processed in the task.
+
+Anything you wish to have packaged in the `_source.zip` should be placed inside the `/global`
 
 ## Tasks
 
