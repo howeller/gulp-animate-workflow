@@ -1,6 +1,15 @@
 # gulp-animatecc-workflow
 Packaging HTML banner files built in Animate CC for RedTrax CMS.
 
+## Dependencies
+- [**node** - latest stable release](https://nodejs.org/en/)
+- [**gulp** ~v.4.0.0](https://www.npmjs.com/package/gulp)
+
+**Custom utility**
+```cli
+fsUtils.js
+```
+
 ## Setup
 1) You will need to have [NodeJs](https://nodejs.org/en/), & [Gulp](https://www.npmjs.com/package/gulp) installed globally. Follow the [Quick Start guide](https://gulpjs.com/docs/en/getting-started/quick-start) to get setup. 
 
@@ -11,6 +20,7 @@ Packaging HTML banner files built in Animate CC for RedTrax CMS.
 4) Place each banner in a folder named with it's Redtrax name inside the `src/banners` directory. The zips & a copy of each HTML file will be created inside the `dist` directory. This task will create the `_final.zip` and `_source.zip` and a copy of the HTML file inside `dist`. Everything you need for direct upload to RedTrax.
 
 Your directory structure should look like this. `banner_300x250` will get renamed with your RedTrax banner name.
+Anything you wish to have packaged in the `_source.zip` should be placed inside the `/global`
 
 ```bash
 ├── gulpfile.js
@@ -41,18 +51,4 @@ To package everything up for uploading to RedTrax:
 gulp
 ```
 
-## Dependencies
-**npm**
 
-```cli
-merge-stream
-path
-gulp
-gulp-rename
-gulp-zip
-```
-
-**Custom utility**
-```cli
-fsUtils.js
-```
