@@ -2,13 +2,8 @@
 Packaging HTML banner files built in Animate CC for RedTrax CMS.
 
 ## Dependencies
-- [**node** - latest stable release](https://nodejs.org/en/)
+- [**NodeJs** - latest stable release](https://nodejs.org/en/)
 - [**gulp** ~v.4.0.0](https://www.npmjs.com/package/gulp)
-
-**Custom utility**
-```cli
-fsUtils.js
-```
 
 ## Setup
 1) You will need to have [NodeJs](https://nodejs.org/en/), & [Gulp](https://www.npmjs.com/package/gulp) installed globally. Follow the [Quick Start guide](https://gulpjs.com/docs/en/getting-started/quick-start) to get setup. 
