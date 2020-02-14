@@ -1,7 +1,7 @@
 {
   "name": "banners",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Gulp task for zipping up HTML banners built in Animate for RedTrax CMS",
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {

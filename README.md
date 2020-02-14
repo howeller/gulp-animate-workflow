@@ -16,9 +16,10 @@ Packaging HTML banner files built in Animate CC for RedTrax CMS.
 
 Your directory structure should look like this.
 
-```bash
+```cli
 ├── gulpfile.js
 ├── package.json
+├── node_modules
 ├── dist
 ├── lib
 │   └── fsUtils.js
@@ -37,7 +38,7 @@ Anything you wish to have packaged in the `_source.zip` (such as Animate templat
 
 ## Tasks
 
-**`zip`** (default)\
+**`gulp`** (default)\
 Packages the published banner into a `_final.zip` and the source files into the `_source.zip`
 
 ## Usage
