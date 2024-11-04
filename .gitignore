@@ -1,3 +1,6 @@
 # Ignore everything in this directory
-node_modules/
+node_modules
+dist/html
+dist/zips
+oneDriveTest
 package-lock.json
