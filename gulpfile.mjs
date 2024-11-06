@@ -118,7 +118,7 @@ function zipFiles(concept) {
 			const _dist = path.join(dir.dist, concept, folder);
 			console.log('Zipping:', _dist);
 
-			return gulp.src(_dist + '/**/*')
+			return gulp.src(_dist + '/**/*', {encoding:false})
 					.pipe(zip(folder + '.zip'))
 					.pipe(gulp.dest(path.join(dir.zips, concept)));
 	});
